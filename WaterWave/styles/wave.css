@@ -1,0 +1,49 @@
+body {
+	margin: 0;
+}
+
+* {
+	font-size: 1.02em;
+}
+
+.ui-overlay-a, .ui-page-theme-a, .ui-page-theme-a .ui-panel-wrapper {
+  background-color: #cccccc;
+}
+
+.ui-header .ui-title, .ui-footer .ui-title {
+	margin: 0;
+}
+
+#header {
+	position: relative;
+}
+
+#header #home {
+	position: absolute;
+	left: -2px;
+	top: 3.5px;
+	bottom: 0px;
+}
+
+canvas {
+	position: absolute;
+	margin-right: auto;
+	margin-left: auto;
+	left: 0;
+	right: 0;
+
+	background-color: #ffffff;
+}
+
+#buttondiv {
+	text-align: center;
+	position: relative;
+}
+
+#buttondiv button {
+	margin: 0 2px;
+}
+
+#explanation {
+	position: relative;
+}
